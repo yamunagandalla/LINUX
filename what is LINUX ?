@@ -1,0 +1,51 @@
+# What is Linux?
+
+Linux is an operating system — just like Windows and macOS.  
+But the special thing is: Linux is free, open-source, powerful, and used everywhere in cybersecurity.  
+Think of it as the favorite OS of hackers, security professionals, programmers, and servers.
+
+## Why is Linux so famous?
+
+⭐ **1. It’s Free & Open Source**  
+Anyone can download, use, modify, or improve it.  
+That's why hackers love it — you fully control the system.
+
+⭐ **2. It’s Super Secure**  
+Linux is built with strong permissions and strict security.  
+That’s why:
+- 90% of servers run on Linux
+- All cybersecurity tools work best on Linux
+- Most hacking labs use Linux machines like Kali, Parrot OS, Ubuntu
+
+⭐ **3. It’s Fast and Lightweight**  
+It runs smoothly even on old laptops.
+
+⭐ **4. It Uses Terminal**  
+This gives you full power.  
+You can control everything using commands — which is super important in cybersecurity.
+
+⭐ **5. Most Tools Run Only on Linux**  
+Important cybersecurity tools like:
+- Nmap
+- Metasploit
+- Burp Suite
+- Wireshark
+- Hydra
+- John the Ripper
+- Aircrack-ng
+- Nikto
+- Gobuster  
+
+…all work best on Linux.
+
+## Where is Linux used?
+
+Everywhere you depend on daily:
+- Android phones → based on Linux
+- Servers → run Linux
+- Supercomputers → almost all run Linux
+- Hacking labs → Linux
+- Cloud (AWS, Azure, GCP) → Linux servers
+- Routers → use Linux internally
+
+Linux is literally the backbone of the internet.
