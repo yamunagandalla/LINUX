@@ -178,3 +178,88 @@ cd ~        # go home
 cd /        # go to root
 pwd         # check current location
 
+1️⃣ cat – Concatenate and display files
+
+Shows whole file content at once.
+
+Good for small files.
+
+Example:
+
+cat file.txt
+
+
+Output: Prints all lines of file.txt to terminal.
+
+2️⃣ less – Scrollable viewer (forward & backward)
+
+Lets you scroll page by page and search inside file.
+
+Handles large files efficiently.
+
+Navigation inside less:
+
+Space → next page
+
+b → previous page
+
+/word → search for word
+
+q → quit
+
+Example:
+
+less file.txt
+
+3️⃣ more – Scrollable viewer (forward only)
+
+Shows file page by page, but cannot scroll back.
+
+Simpler than less.
+
+Navigation inside more:
+
+Space → next page
+
+Enter → next line
+
+q → quit
+
+Example:
+
+more file.txt
+
+4️⃣ head – View first lines of a file
+
+Default: shows first 10 lines.
+
+Can specify number of lines with -n.
+
+Example:
+
+head file.txt           # first 10 lines
+head -n 5 file.txt      # first 5 lines
+
+5️⃣ tail – View last lines of a file
+
+Default: shows last 10 lines.
+
+Can specify number of lines with -n.
+
+Very useful for logs.
+
+Example:
+
+tail file.txt           # last 10 lines
+tail -n 5 file.txt      # last 5 lines
+tail -f file.txt        # live updates as file grows (log monitoring)
+
+
+✅ Summary Table
+
+Command	Shows	Notes
+cat	Whole file	Best for small files
+less	Page by page	Scroll forward/back, search inside
+more	Page by page	Scroll forward only
+head	First lines	Default 10 lines, use -n for custom
+tail	Last lines	Default 10 lines, use -n or -f for live updates
